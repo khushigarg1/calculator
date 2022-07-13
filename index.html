@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="block">
+        <h1 id="Calculator">MY CALCULATOR!</h1>
+        <form name="calc">
+            <table id="btns">
+                <tr id="displaybutton">
+                    <th colspan="4" id="displaybutton">
+                        <input type="text" id="display" value="" readonly>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="press" type="button" id="reset" value="C">C</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="pop" value="<-">~</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="percentage" value="%">%</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="divide" value="/">/</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="press" type="button" id="seven" value="7">7</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="eight" value="8">8</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="nine" value="9">9</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="multiply" value="*">*</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="press" type="button" id="four" value="4">4</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="five" value="5">5</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="six" value="6">6</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="minus" value="-">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="press" type="button" id="one" value="1">1</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="two" value="2">2</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="three" value="3">3</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="plus" value="+">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- <td> -->
+                    <!-- <button type="button" id="reset" value="C"> -->
+                    <!-- </td> -->
+                    <td>
+                        <button class="press" type="button" id="eight" value="0">0</button>
+                    </td>
+                    <td>
+                        <button class="press" type="button" id="nine" value=".">.</button>
+                    </td>
+                    <td colspan="2">
+                        <button class="press" type="button" id="equal" value="=">=</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+        <!-- <ul>
+            <p>Some instructions are:- </p>
+            <li>(~) -> go back and remove last element</li>
+            <li>(C) -> clear all elements</li>
+            <li>Now enjoy !</li>
+        </ul> -->
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
